@@ -1,6 +1,6 @@
 # INFINITE - Powerful rootkit detection tool in Linux.
 
-<img src="https://imgur.com/a/JUUlxQx" alt="imgur" width=600/>
+<img src="https://i.postimg.cc/g2yxCFsZ/INFINITE.png" alt="imgur" width=600/>
 
 
 > *"The terror of updated rootkits."* 
@@ -27,7 +27,7 @@ For the detection of Userland rootkits, INFINITE looks for detections using vari
 - NETSTAT
 
 <p align="center">
-<img src="https://imgur.com/a/i04rUiy">
+<img src="https://i.postimg.cc/63qT47Xz/USERLAND.png">
 </p align="center">
 
 
@@ -46,7 +46,7 @@ The command executed is as follows: - MAGIC=mtz bash
 Although it can be changed to: kill -59 0 or others.
 
 <p align="center">
-<img src="https://imgur.com/a/5xxbk3W">
+<img src="https://i.postimg.cc/KcKrdjg6/PRIVES.png">
 </p align="center">
 
 #### DMESG
@@ -56,11 +56,11 @@ INFINITE relies on DMESG to observe information about module loads, kernel symbo
 Thanks to this, INFINITE is able to provide the user with the maximum possible information to achieve the detection of an LKM Rootkit.
 
 <p align="center">
-<img src="https://imgur.com/a/B6Cr68X">
+<img src="https://i.postimg.cc/sD7PgLK2/IOCTL-output.png">
 </p align="center">
 
 <p align="center">
-<img src="https://imgur.com/a/fV4xDjv">
+<img src="https://i.postimg.cc/BvYHzfZc/syscalls-dmesg.png">
 </p align="center">
 
 #### /PROC/MODULES
@@ -70,7 +70,7 @@ Also, the tool takes care of looking at /proc/modules to see information about l
 Although it is not very effective, if an LKM Rootkit does not apply its hooks properly or fails at something, this could be a detection factor.
 
 <p align="center">
-<img src="https://imgur.com/a/UFB56K7">
+<img src="https://i.postimg.cc/B6RDq5KW/MODULES-CHARGED.png">
 </p align="center">
 
 #### TOUCHED_FUNCTIONS
@@ -80,7 +80,7 @@ INFINITE also look at: /sys/kernel/tracing/touched_functions to see which functi
 The most common one is: kallsyms_lookup_name (0)
 
 <p align="center">
-<img src="https://imgur.com/a/sEZKWdR">
+<img src="https://i.postimg.cc/0y9S2ybS/TOUCHED-FUNCTIONS.png">
 </p align="center">
 
 
@@ -96,7 +96,7 @@ Therefore, I have integrated 3 ways to deactivate FTRACE.
 3 - Using the pwrite() syscall (effective against more modern rootkits)
 
 <p align="center">
-<img src="https://imgur.com/a/NxqhI0p">
+<img src="https://i.postimg.cc/tgMn5dDZ/ftrace-bypass.png">
 </p align="center">
 
 The same INFINITE code is responsible for creating, compiling, and running the file, but even so, I will leave the bypass.
