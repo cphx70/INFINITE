@@ -12,11 +12,12 @@ int main() {
         printf("ERROR AL ABRIR");
     }
 
-    pwrite(fd, "0", 1, 0)
+    pwrite(fd, "0", 1, 0);
     // "0" contenido a escribir
     // 1 <- numero de bytes a escribir
     // 0 <- OFFSET
 
     close(fd); 
     return 0; 
+
 }
