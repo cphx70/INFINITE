@@ -1,6 +1,6 @@
 # INFINITE - Powerful rootkit detection tool in Linux.
 
-<img src="https://i.postimg.cc/63MDzcLQ/3-final.png" alt="imgur" width=600/>
+<img src="https://imgur.com/UTEiAfx" alt="imgur" width=600/>
 
 
 > *"The terror of updated rootkits."* 
@@ -133,5 +133,6 @@ In any case, it will be updated little by little. :)
 
 
 Any bug found, if you want, open a issue or contact me via discord: `cphx_`
+
 
 
