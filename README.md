@@ -88,7 +88,7 @@ The most common one is: kallsyms_lookup_name (0)
 </p align="center">
 
 
-#### Uso de ModTracer para detectar y eliminar
+#### Use of ModTracer for detect and delete
 
 INFINITE has been combined with the ModTracer tool for the detection of LKM Rootkits.However, not everything is so great. ModTracer becomes functional with rootkits that have the function of becoming visible again; otherwise, using ModTracer will not be very useful for us.
 
@@ -130,5 +130,6 @@ In any case, it will be updated little by little. :)
 
 
 ## BUGS
+
 
 Any bug found, if you want, open a issue or contact me via discord: `cphx_`
